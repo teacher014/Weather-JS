@@ -1,4 +1,4 @@
-const API_KEY = 'a37c9cb110fe3213e5f61c2471df9b86';
+const API_KEY = '#';
 const COORDS = 'coords';
 
 const weatherInfo = document.getElementById('weatherInfo');
