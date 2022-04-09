@@ -1,11 +1,11 @@
-https://api.openweathermap.org/data/2.5/weather?lat=35&lon=129&appid=a37c9cb110fe3213e5f61c2471df9b86&units=metric&lang=kr
+https://api.openweathermap.org/data/2.5/weather?lat=35&lon=129&appid=API_KEY&units=metric&lang=kr
 
 예시 : 
 https://openweathermap.org/current
 https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid={API key}
 
 1. geo.html - 위경도 
-2. api 키 - openweather.org / a37c9cb110fe3213e5f61c2471df9b86
+2. api 키 - openweather.org / 
 3. step
   - 기본예제 - jp, 화씨온도
   - 수정하기 - kr, 섭씨온도로
