@@ -36,7 +36,7 @@ function getWeather(lat, lon){
     const weatherIcon = json.weather[0].icon;
     const weatherIconUrl = `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
   
-    weatherInfo.innerHTML = `${Math.floor(temperature)}  &deg;C ℃ / @${place} / ${weatherDescription}`;
+    weatherInfo.innerHTML = `${Math.floor(temperature)}  &deg;C / @${place} / ${weatherDescription}`;
     weatherIconImg.setAttribute('src', weatherIconUrl);
   })
   .catch((error) => console.log("error", error));
