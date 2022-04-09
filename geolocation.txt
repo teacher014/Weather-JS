@@ -1,0 +1,24 @@
+https://api.openweathermap.org/data/2.5/weather?lat=35&lon=129&appid=a37c9cb110fe3213e5f61c2471df9b86&units=metric&lang=kr
+
+예시 : 
+https://openweathermap.org/current
+https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid={API key}
+
+1. geo.html - 위경도 
+2. api 키 - openweather.org / a37c9cb110fe3213e5f61c2471df9b86
+3. step
+  - 기본예제 - jp, 화씨온도
+  - 수정하기 - kr, 섭씨온도로
+
+  파라미터 : imperial, metric, 차이점
+  Temperature is available in Fahrenheit, Celsius and Kelvin units.
+  For temperature in Fahrenheit use units=imperial
+  For temperature in Celsius use units=metric
+  Temperature in Kelvin is used by default, no need to use units parameter in API call
+  List of all API parameters with units openweathermap.org/weather-data
+
+  #units = 단위
+  #lang = kr
+
+  4. 결과
+  {"coord":{"lon":129,"lat":35},"weather":[{"id":800,"main":"Clear","description":"맑음","icon":"01d"}],"base":"stations","main":{"temp":23.03,"feels_like":23.27,"temp_min":23.03,"temp_max":23.03,"pressure":1017,"humidity":72,"sea_level":1017,"grnd_level":1017},"visibility":10000,"wind":{"speed":7.08,"deg":221,"gust":10.5},"clouds":{"all":0},"dt":1649478759,"sys":{"type":1,"id":8086,"country":"KR","sunrise":1649451627,"sunset":1649497833},"timezone":32400,"id":1838524,"name":"Busan","cod":200}

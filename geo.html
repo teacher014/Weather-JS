@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>geolocation</title>
+    <body>
+      <script>
+        navigator.geolocation.getCurrentPosition(function(position){
+          document.write(`Latitude(위도)${position.coords.latitude} , Longitude(경도)${position.coords.longitude}`)
+        });
+      </script>
+    </body>
+  </head>
+</html>
